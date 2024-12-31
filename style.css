@@ -1,0 +1,119 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #090909;
+            color: #fff;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 1rem 2rem; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .carousel img {
+            width: 100%;
+            display: none;
+        }
+        .carousel img.active {
+            display: block;
+        }
+        .carousel-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .carousel-buttons button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .carousel-buttons button:hover {
+            background-color: #555;
+        }
+        .movies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .movie-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+        .movie-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .movie-card h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+        .movie-card p {
+            font-size: 14px;
+            color: #aaa;
+        }
+        footer {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .boton { 
+            display: inline-block; 
+            margin-top: 1rem; 
+            padding: 0.5rem 1rem; 
+            background-color: #333; 
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 5px; 
+        } 
+         
+        .boton:hover { 
+            background-color: #555; 
+        }
+        .centrar {
+            text-align: center;
+        }
+        .info {
+            font-size: 20px; /* Tamaño del texto más grande */
+            font-weight: bold; /* Texto en negrita */
+            color: #333; /* Color del texto */
+            margin-top: 10px; /* Espacio entre la imagen y el texto */
+            text-align: center; /* Centrar el texto debajo de la imagen */
